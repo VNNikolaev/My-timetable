@@ -30,5 +30,4 @@ enum Weekdays: Int, CaseIterable {
             return "Воскресенье"
         }
     }
-    
 }

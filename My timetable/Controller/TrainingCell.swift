@@ -21,7 +21,7 @@ class TrainingCell: UITableViewCell {
     
     func configure(with singleTrainig: Training){
         locationLabel.text = singleTrainig.place
-        teacherNameLabel.text = singleTrainig.teacher_v2.short_name
+        teacherNameLabel.text = singleTrainig.teacher_v2?.short_name
         trainingNameLabel.text = "\(singleTrainig.name)" + " \(singleTrainig.weekDay)"
         startTimeLabel.text = singleTrainig.startTime
         endTimeLabel.text = singleTrainig.endTime
